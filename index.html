@@ -10,11 +10,11 @@
 </html>
 
 <script>
-    var columnDefs = [
-  { field: 'athlete'},
+var columnDefs = [
+  { field: 'athlete' },
   { field: 'age', filter: 'agNumberColumnFilter', maxWidth: 100 },
   { field: 'country' },
-  { field: 'year', maxWidth: 100 ,range},
+  { field: 'year', maxWidth: 100 },
   {
     field: 'date',
     filter: 'agDateColumnFilter',
@@ -74,7 +74,4 @@ document.addEventListener('DOMContentLoaded', function() {
       gridOptions.api.setRowData(data);
     });
 });
-
 </script>
-
-
